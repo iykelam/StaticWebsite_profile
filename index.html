@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iyke's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c0e2e3; /* Light blue or teal background color */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #d0ffd0; /* Light lime green background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #4285f4;
+        }
+
+        .review {
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+
+        .review p {
+            font-style: italic;
+            color: #666;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated {
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* Style for the profile image */
+        .profile-image {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            transition: border-width 0.3s ease-in-out;
+        }
+
+        .profile-image:hover {
+            border: 4px solid #9fb4d1; /* Change border width and color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Iyke's Portfolio</h1>
+    </header>
+
+    <!-- Add your profile image -->
+    <img src="https://myterraformprojectwebsite1990.s3.amazonaws.com/profile.png" alt="Iyke's Profile" class="profile-image animated">
+
+    <section class="animated">
+        <h2>About Me</h2>
+        <p>Hello! I'm Iyke, a Junior DevOps Engineer passionate about automating and streamlining operations to enhance efficiency and reliability. With a background in Realtime DevOps and continuous learning, I strive to implement best practices to optimize development and deployment processes.</p>
+
+        <p>My journey involves utilizing tools like Terraform, AWS, Docker, and Jenkins to build scalable and resilient infrastructure. I believe in the power of automation to simplify complex tasks and ensure consistent and repeatable results.</p>
+
+        <p>Continuous improvement is at the core of my approach, and I am excited about embracing new technologies and methodologies to stay at the forefront of the ever-evolving DevOps landscape. Let's collaborate and innovate together!</p>
+    </section>
+
+    <section class="animated">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Creatng my website on AWS using Terraform</h3>
+            <p>In this Realtime DevOps project we will be using Terraform and AWS Cloud to set up static website hosting. Goal is to use Terraform's IaaC with AWS to create a one click automated solution.</p>
+            <p>This page will be continuously updated as more projects and skills get acquired.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+    </section>
+
+    <section class="animated">
+        <h2>Reviews</h2>
+        <div class="review">
+            <p>"Iyke did an amazing job on my project. Highly recommended!"</p>
+        </div>
+
+        <div class="review">
+            <p>"Great communication and timely delivery. Will work with Iyke again."</p>
+        </div>
+    </section>
+</body>
+
+</html>
